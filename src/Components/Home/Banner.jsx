@@ -3,7 +3,7 @@ import banner from "../../assets/bannerImg.png";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col mt-10 lg:mt-0 justify-between items-center h-[calc(100vh-88px)] lg:flex-row gap-3 text-justify">
+    <div className="flex flex-col-reverse mt-10 lg:mt-0 justify-between items-center lg:h-[calc(100vh-88px)] h-[130vh] lg:flex-row gap-8 lg:gap-3 text-justify">
       {/* banner left side */}
       <div className="text-[#000000] flex-1">
         <h6 className="text-base font-semibold"> Hi I am </h6>
@@ -27,11 +27,14 @@ const Banner = () => {
 
       {/* banner right side */}
       <div className="flex-1">
-        <img
-          src={banner}
-          className="w-fit h-[calc(100vh-210px)] ml-auto"
-          alt=""
-        />
+        <div className="relative ">
+          <img
+            src={banner}
+            className="w-fit h-[calc(100vh-210px)] ml-auto"
+            alt=""
+          />
+          <div className="bg-[#FD6F0099]  h-[7vh] absolute ml-auto py-3 lg:py-7 w-[35vh] lg:w-[40vh] top-[8vh] 2xl:top-[10vh] px-0 lg:px-10 right-[27vh] lg:right-[29vh] 2xl:right-[33vh] 2xl:py-8 translate-x-1/2 "></div>
+        </div>
 
         <div className="flex items-center justify-center gap-5 w-full relative lg:left-20 *:cursor-pointer mt-5">
           {/* facebook */}
