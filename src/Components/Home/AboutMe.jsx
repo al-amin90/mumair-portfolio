@@ -37,7 +37,7 @@ const AboutMe = () => {
             className="w-fit h-auto lg:h-[calc(100vh-120px)] mx-auto"
             alt=""
           />
-          <div className="bg-[#FD6F0099]  h-[7vh] absolute ml-auto py-3 lg:py-7 2xl:py-8 w-[35vh] lg:w-[40vh] top-[11vh] 2xl:top-[13vh] px-0 lg:px-10 right-[33vh] lg:right-1/2  translate-x-1/2 "></div>
+          <div className="bg-[#FD6F0099]  h-[7vh] absolute ml-auto py-3 lg:py-7 2xl:py-8 w-[35vh] lg:w-[40vh] top-[11vh] lg:top-[13vh] 2xl:top-[13vh] px-0 lg:px-10 right-[33vh] lg:right-1/2  translate-x-1/2 "></div>
         </div>
       </div>
     </section>
