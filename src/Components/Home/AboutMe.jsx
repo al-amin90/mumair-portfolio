@@ -18,14 +18,46 @@ const AboutMe = () => {
 
         {/* progress part */}
         <div className="text-base lg:text-lg  font-semibold">
-          <h6 >UX</h6>
-          <img src={bar1} alt=""  className="cursor-no-drop my-1"/>
+          <h6>UX</h6>
+          <div className="relative my-3 w-full bg-[#EDECEC] rounded-full h-3">
+            <div
+              className="bg-[#FD6F00] h-3 rounded-full"
+              style={{ width: `92%` }}
+            ></div>
+            <div
+              className={`absolute top-1/2 left-[88%] transform translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-2 border-[#FD6F00] bg-[#EDECEC]`}
+            ></div>
+          </div>
           <h6>Website Design</h6>
-          <img src={bar2} alt=""  className="cursor-no-drop my-1"/>
+          <div className="relative my-3 w-full bg-[#EDECEC] rounded-full h-3">
+            <div
+              className="bg-[#FD6F00] h-3 rounded-full"
+              style={{ width: `85%` }}
+            ></div>
+            <div
+              className={`absolute top-1/2 left-[80%] transform translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-2 border-[#FD6F00] bg-[#EDECEC]`}
+            ></div>
+          </div>
           <h6>App Design </h6>
-          <img src={bar3} alt=""  className="cursor-no-drop my-1"/>
-          <h6>Graphic Design  </h6>
-          <img src={bar1} alt=""  className="cursor-no-drop my-1"/>
+          <div className="relative my-3 w-full bg-[#EDECEC] rounded-full h-3">
+            <div
+              className="bg-[#FD6F00] h-3 rounded-full"
+              style={{ width: `96%` }}
+            ></div>
+            <div
+              className={`absolute top-1/2 left-[90%] transform translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-2 border-[#FD6F00] bg-[#EDECEC]`}
+            ></div>
+          </div>
+          <h6>Graphic Design </h6>
+          <div className="relative my-3 w-full bg-[#EDECEC] rounded-full h-3">
+            <div
+              className="bg-[#FD6F00] h-3 rounded-full"
+              style={{ width: `90%` }}
+            ></div>
+            <div
+              className={`absolute top-1/2 left-[84%] transform translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-2 border-[#FD6F00] bg-[#EDECEC]`}
+            ></div>
+          </div>
         </div>
       </div>
 
