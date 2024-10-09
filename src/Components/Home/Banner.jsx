@@ -33,7 +33,7 @@ const Banner = () => {
             className="w-fit h-[calc(100vh-210px)] ml-auto"
             alt=""
           />
-          <div className="bg-[#FD6F0099]  h-[7vh] absolute ml-auto py-3 lg:py-7 w-[35vh] lg:w-[40vh] top-[8vh] 2xl:top-[10vh] px-0 lg:px-10 right-[27vh] lg:right-[29vh] 2xl:right-[33vh] 2xl:py-8 translate-x-1/2 "></div>
+          <div className="bg-[#FD6F0099]  h-[7vh] absolute ml-auto py-3 lg:py-7 w-[35vh] lg:w-[40vh] top-[8vh] 2xl:top-[10vh] px-0 lg:px-10 right-[23vh] lg:right-[29vh] 2xl:right-[33vh] 2xl:py-8 translate-x-1/2 "></div>
         </div>
 
         <div className="flex items-center justify-center gap-5 w-full relative lg:left-20 *:cursor-pointer mt-5">
