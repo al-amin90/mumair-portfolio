@@ -11,7 +11,7 @@ const DesignTogether = () => {
       ></SectionTitle>
 
     {/* input part */}
-    <div className="flex items-center mt-12 justify-center">
+    <div className="flex items-center mt-12 mb-24 justify-center">
         <input className="text-sm md:w-1/2 py-3 px-4 md:py-4 md:px-6 font-normal rounded-xl border border-[#AFAFAF]" type="email" name="" placeholder="Enter Your Email" id="" />
         <button className="py-3 px-4 md:py-4 md:px-6 font-normal rounded-xl whitespace-nowrap bg-[#FD6F00] ml-4 text-white">Contact Me </button>
     </div>
